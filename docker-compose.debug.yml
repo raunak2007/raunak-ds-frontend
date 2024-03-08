@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  raunakdsfrontend:
+    image: raunakdsfrontend
+    build:
+      context: .
+      dockerfile: ./Dockerfile
